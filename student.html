@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentLogin</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box form-box">
+            <header>Student Login</header>
+            <form action="/studentLogin" method="post">
+                <div class="field input">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="field input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="field">
+                    <input class="btn" type="submit" id="submit" value="Login">
+                </div>
+                <div class="link">
+                    Admin Login? <a  href="admin.html">Login Here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
